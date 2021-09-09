@@ -1,0 +1,67 @@
+/*-----------------------------------------------------------------------------------
+
+	Template Name: Mac Book Pro
+	Template URI: http://www.programming-hero.com
+	Description:  Assignment 5 ...dom manipulation and some html design
+	Author: Golam Hakkani mim
+	Author URI: mim.cse32@gmail.com
+	License: GNU General Public License version 3.0
+	License URI: http://www.gnu.org/licenses/gpl-3.0.html
+	Version: 1.0
+
+-----------------------------------------------------------------------------------
+
+	1. Typography
+	2. Header Area
+	3. Header description
+	4. Computer Memory 
+	5. Computer SSD
+	6. Delevery 
+	7. Price Calculation
+	8. Discount with Total Price
+
+-----------------------------------------------------------------------------------*/
+
+/************** 1. Typography ************************/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;1,600&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+/**************** 2. Header description ********/
+.head-paragraph {
+    font-size: 16px;
+    color: #908c8c;
+    line-height: 26px;
+    width: 88%;
+}
+
+/**************** 4. Memory  ********/
+.memory h5 {
+    font-size: 23px;
+    line-height: 30px;
+    letter-spacing: 1px;
+}
+
+/**************** 5. Storage  ********/
+.storage h5 {
+    font-size: 23px;
+    line-height: 30px;
+    letter-spacing: 1px;
+}
+
+/**************** 5. Delevery ********/
+.delevery {
+
+    margin-top: 20px;
+    margin-bottom: 25px!important;
+}
+.delevery h5 {
+    font-size: 23px;
+    line-height: 30px;
+}
+
+
+.total-price{
+  font-weight:600;
+}
